@@ -1,0 +1,5 @@
+package pr.project.client;
+
+public interface StockClient {
+
+}

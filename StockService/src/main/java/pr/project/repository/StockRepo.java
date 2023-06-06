@@ -1,0 +1,11 @@
+package pr.project.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import pr.project.entity.StockPrice;
+
+public interface StockRepo extends JpaRepository<StockPrice, Integer> {
+	
+	public StockPrice findByCompanyName(String companyName);
+
+}

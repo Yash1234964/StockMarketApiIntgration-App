@@ -1,0 +1,13 @@
+package pr.project;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ServiceRegisterEurekaServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ServiceRegisterEurekaServerApplication.class, args);
+	}
+
+}

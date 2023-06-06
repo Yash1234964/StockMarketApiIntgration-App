@@ -1,0 +1,5 @@
+package pr.project.entity;
+
+public class StockPrice {
+
+}

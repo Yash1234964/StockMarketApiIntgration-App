@@ -1,0 +1,5 @@
+package pr.project.service;
+
+public interface IStockPriceService {
+
+}
